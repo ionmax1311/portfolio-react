@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "./static/css/main.098edef6.css",
+    "main.js": "./static/js/main.cab945aa.js",
+    "static/media/bg-main.jpeg": "./static/media/bg-main.735bc6f3516f9b2348b8.jpeg",
+    "static/media/CV_Frontend_Ionash_Maxim.pdf": "./static/media/CV_Frontend_Ionash_Maxim.3dfc221f2cc57c2f784a.pdf",
+    "static/media/I.jpg": "./static/media/I.6c81dd5e2af6a5b2312c.jpg",
+    "index.html": "./index.html",
+    "main.098edef6.css.map": "./static/css/main.098edef6.css.map",
+    "main.cab945aa.js.map": "./static/js/main.cab945aa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.098edef6.css",
+    "static/js/main.cab945aa.js"
+  ]
+}

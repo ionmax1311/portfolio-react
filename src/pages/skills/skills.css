@@ -1,0 +1,64 @@
+.skills {
+	position: relative;
+}
+.skills .CircularProgressbar .CircularProgressbar-path {
+	stroke: var(--accent-color);
+}
+.skills .CircularProgressbar .CircularProgressbar-trail {
+	stroke: #fff;
+}
+.skills .CircularProgressbar .CircularProgressbar-text {
+	fill: #fff;
+}
+.skills-list {
+	display: flex;
+	gap: 20px 75px;
+	max-width: 510px;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.skills-item {
+	width: 120px;
+	margin-bottom: 30px;
+}
+.skills-subtitle {
+	display: block;
+	text-align: center;
+	margin-bottom: 15px;
+	font-weight: 700;
+}
+.skills-wrap {
+	display: flex;
+	margin: 100px auto 0;
+	justify-content: space-between;
+	max-width: 950px;
+}
+.skills-text {
+	max-width: 410px;
+}
+.skills-text p {
+	margin-bottom: 15px;
+}
+
+@media (max-width: 992px) {
+	.skills-list {
+		max-width: 500px;
+	}
+	.skills-wrap {
+		margin-top: 60px;
+	}
+}
+@media (max-width: 767px) {
+	.skills-wrap {
+		flex-direction: column;
+	}
+	.skills-text {
+		margin: 0 auto 50px;
+	}
+	.skills-list {
+		margin: auto;
+	}
+	.skills-item {
+		margin-bottom: 15px;
+	}
+}

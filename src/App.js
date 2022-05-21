@@ -1,25 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Nav from "./components/nav/Nav";
+import About from "./pages/about/About";
+import Experience from "./pages/experience/Experience";
+import Portfolio from "./pages/portfolio/Portfolio";
+import Skills from "./pages/skills/Skills";
+import Background from "./assets/bg-main.jpeg";
+import PortfolioDetails from "./pages/portfolio/PortfolioDetails";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className='app'>
+			<BrowserRouter>
+				<Nav />
+				<div
+					className='content'
+					style={{
+						backgroundImage: `url(${Background})`,
+						backgroundSize: "cover",
+					}}>
+					<Routes>
+						<Route path='/' element={<About />} />
+						<Route path='/skills' element={<Skills />} />
+						<Route path='/experience' element={<Experience />} />
+						<Route path='/portfolio' element={<Portfolio />} />
+						<Route
+							path='/portfolio/:title'
+							element={<PortfolioDetails />}
+						/>
+					</Routes>
+				</div>
+			</BrowserRouter>
+		</div>
+	);
 }
 
 export default App;
