@@ -2,7 +2,7 @@
 	"name": "react-portfolio",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": "ionmax1311.github.io/portfolio-react/build/",
+	"homepage": "ionmax1311.github.io/portfolio-react/",
 	"dependencies": {
 		"@fortawesome/fontawesome-svg-core": "^6.1.1",
 		"@fortawesome/free-brands-svg-icons": "^6.1.1",
