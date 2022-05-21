@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Nav from "./components/nav/Nav";
 import About from "./pages/about/About";
 import Experience from "./pages/experience/Experience";
@@ -10,7 +10,7 @@ import PortfolioDetails from "./pages/portfolio/PortfolioDetails";
 function App() {
 	return (
 		<div className='app'>
-			<BrowserRouter>
+			<HashRouter>
 				<Nav />
 				<div
 					className='content'
@@ -29,7 +29,7 @@ function App() {
 						/>
 					</Routes>
 				</div>
-			</BrowserRouter>
+			</HashRouter>
 		</div>
 	);
 }
