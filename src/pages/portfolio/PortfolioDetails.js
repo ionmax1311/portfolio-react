@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams, NavLink } from "react-router-dom";
 import { works } from "./config";
-import ArrowLeft from "../../assets/arrow-left.png";
+import ArrowLeft from "../../img/arrow-left.png";
 
 const PortfolioDetails = () => {
 	const { title } = useParams();

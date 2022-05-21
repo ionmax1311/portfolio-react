@@ -1,5 +1,5 @@
 import React from "react";
-import Photo from "../../assets/I.jpg";
+import Photo from "../../img/I.jpg";
 
 import {
 	faLinkedin,

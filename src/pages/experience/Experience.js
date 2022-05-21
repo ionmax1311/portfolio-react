@@ -1,7 +1,7 @@
 import React from "react";
 import { experience } from "./config";
 import ExperienceItem from "./ExperienceItem";
-import CV from "../../assets/CV_Frontend_Ionash_Maxim.pdf";
+import CV from "../../img/CV_Frontend_Ionash_Maxim.pdf";
 import "./experience.css";
 
 const Experience = () => {

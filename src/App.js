@@ -4,7 +4,7 @@ import About from "./pages/about/About";
 import Experience from "./pages/experience/Experience";
 import Portfolio from "./pages/portfolio/Portfolio";
 import Skills from "./pages/skills/Skills";
-import Background from "./assets/bg-main.jpeg";
+import Background from "./img/bg-main.jpeg";
 import PortfolioDetails from "./pages/portfolio/PortfolioDetails";
 
 function App() {
