@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.098edef6.css",
-    "main.js": "/static/js/main.ad211ece.js",
-    "static/media/bg-main.jpeg": "/static/media/bg-main.735bc6f3516f9b2348b8.jpeg",
-    "static/media/CV_Frontend_Ionash_Maxim.pdf": "/static/media/CV_Frontend_Ionash_Maxim.3dfc221f2cc57c2f784a.pdf",
-    "static/media/I.jpg": "/static/media/I.6c81dd5e2af6a5b2312c.jpg",
-    "index.html": "/index.html",
-    "main.098edef6.css.map": "/static/css/main.098edef6.css.map",
-    "main.ad211ece.js.map": "/static/js/main.ad211ece.js.map"
+    "main.css": "/portfolio-react/build/static/css/main.098edef6.css",
+    "main.js": "/portfolio-react/build/static/js/main.eb08e9d3.js",
+    "static/media/bg-main.jpeg": "/portfolio-react/build/static/media/bg-main.735bc6f3516f9b2348b8.jpeg",
+    "static/media/CV_Frontend_Ionash_Maxim.pdf": "/portfolio-react/build/static/media/CV_Frontend_Ionash_Maxim.3dfc221f2cc57c2f784a.pdf",
+    "static/media/I.jpg": "/portfolio-react/build/static/media/I.6c81dd5e2af6a5b2312c.jpg",
+    "index.html": "/portfolio-react/build/index.html",
+    "main.098edef6.css.map": "/portfolio-react/build/static/css/main.098edef6.css.map",
+    "main.eb08e9d3.js.map": "/portfolio-react/build/static/js/main.eb08e9d3.js.map"
   },
   "entrypoints": [
     "static/css/main.098edef6.css",
-    "static/js/main.ad211ece.js"
+    "static/js/main.eb08e9d3.js"
   ]
 }
