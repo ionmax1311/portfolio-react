@@ -38,7 +38,7 @@ export const works = {
 			title: "React Portfolio",
 			img: "/assets/img-portfolio.png",
 			linkCode: "https://github.com/ionmax1311/portfolio-react",
-			linkDemo: "https://ionmax1311.github.io/portfolio-react/build",
+			linkDemo: "https://portfolio-react-5efa3.web.app",
 			desc: "reactjs / react-router",
 		},
 		{
